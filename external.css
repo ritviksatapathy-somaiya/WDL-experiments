@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f3;
+    margin: 0;
+    color: #333;
+}
+
+header {
+    background-color: #8e263b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+}
+
+h2,
+h3 {
+    color: #a52d4a;
+}
+
+.content {
+    padding: 20px;
+    margin: 20px;
+}
+
+.info {
+    background-color: #ffe0e7;
+    padding: 15px;
+    border: 1px solid #e6a0b0;
+    border-radius: 8px;
+}
+
+/* Common Footer */
+
+footer {
+    background-color: #8e263b;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 30px;
+}
+
+/* Task 7: Table Styling */
+
+.price-table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+}
+
+.price-table caption {
+    font-size: 24px;
+    color: #8e263b;
+    padding: 15px;
+}
+
+.price-table th,
+.price-table td {
+    border: 1px solid #d88b9d;
+    padding: 12px;
+}
+
+.price-table th {
+    background-color: #a52d4a;
+    color: white;
+}
+
+.price-table tr:nth-child(even) {
+    background-color: #ffe0e7;
+}
+
+/* Task 8: Registration Form Styling */
+
+form {
+    width: 70%;
+    margin: auto;
+}
+
+fieldset {
+    border: 2px solid #a52d4a;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+legend {
+    color: #8e263b;
+    font-weight: bold;
+    padding: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    color: #8e263b;
+}
+
+input,
+select {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #d88b9d;
+    border-radius: 5px;
+}
+
+input:focus,
+select:focus {
+    outline: 2px solid #e6a0b0;
+}
+
+button {
+    background-color: #8e263b;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d45b78;
+}

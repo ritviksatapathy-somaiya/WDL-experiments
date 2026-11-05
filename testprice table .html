@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Laboratory Test Price Table</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Laboratory Test Price Table</h1>
+        <p>Clinical Laboratory Management System</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="test-details.html">Test Details</a>
+        <a href="test-price-table.html">Price List</a>
+        <a href="patient-registration.html">Registration</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+    <main class="content">
+
+        <table class="price-table">
+
+            <caption>
+                <b>Laboratory Test Charges</b>
+            </caption>
+
+            <thead>
+                <tr>
+                    <th>Test Code</th>
+                    <th>Test Name</th>
+                    <th>Department</th>
+                    <th>Cost (₹)</th>
+                    <th>Sample Type</th>
+                    <th>Report Time</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>T101</td>
+                    <td>Complete Blood Count (CBC)</td>
+                    <td rowspan="2">Hematology</td>
+                    <td>500</td>
+                    <td>Blood</td>
+                    <td>24 Hours</td>
+                </tr>
+
+                <tr>
+                    <td>T102</td>
+                    <td>Hemoglobin Test</td>
+                    <td>250</td>
+                    <td>Blood</td>
+                    <td>12 Hours</td>
+                </tr>
+
+                <tr>
+                    <td>T201</td>
+                    <td>Urine Routine Test</td>
+                    <td>Pathology</td>
+                    <td>300</td>
+                    <td>Urine</td>
+                    <td>6 Hours</td>
+                </tr>
+
+                <tr>
+                    <td>T301</td>
+                    <td>Thyroid Profile</td>
+                    <td>Biochemistry</td>
+                    <td>900</td>
+                    <td>Blood</td>
+                    <td>24 Hours</td>
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="6">
+                        Prices are subject to change without prior notice.
+                    </td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 Clinical Laboratory Management System.
+            All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+
+</html>
